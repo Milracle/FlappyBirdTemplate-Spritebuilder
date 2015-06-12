@@ -19,7 +19,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 {
     // define variables here;
     Character *character;
-    CCPhysicsNode *
+    CCPhysicsNode *physicsNode;
 }
 
 -(void) initialize;
