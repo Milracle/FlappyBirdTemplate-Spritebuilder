@@ -13,8 +13,8 @@
 
 -(void)update:(CCTime)delta
 {
-    character = (Character *)[CCBReader load:@"Character"];
-    [physicsNode addChild:character];
+ //   character = (Character *)[CCBReader load:@"Character"];
+ //   [physicsNode addChild:character];
     
     // Increment the time since the last obstacle was added
     timeSinceObstacle += delta; // delta is approximately 1/60th of a second
